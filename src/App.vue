@@ -40,7 +40,7 @@
               <strong>iMoon: Intelligent Media and Cognition Lab</strong>
             </v-card-subtitle>
             <v-card-text class="text-center">
-              Yifan Feng and Yue Gao. Copyright © 2022 -
+              iMoon-Lab. Copyright © 2022 -
               {{ new Date().getFullYear() }}, All rights reserved.
             </v-card-text>
           </v-col>

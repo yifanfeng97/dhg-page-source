@@ -18,7 +18,10 @@
       <v-col cols="12" md="5">
         <v-card>
           <v-card-title>
-            <span class="mb-3 text-h4 font-weight-medium" style="wordBreak:Keep-all">
+            <span
+              class="mb-3 text-h4 font-weight-medium"
+              style="word-break: Keep-all"
+            >
               DHG is the ultimate library for both Graph Neural Networks and
               Hypergraph Neural Networks
             </span>
@@ -35,6 +38,7 @@
           :src="require('../assets/logo_DHG.svg')"
           class="my-3"
           contain
+          transition="slide-x-transition"
           max-height="200"
         />
       </v-col>
