@@ -41,7 +41,7 @@ export default {
       {
         idx: 3,
         title: "Powerful API for Designing GNNs and HGNNs",
-        content: "Multiple Laplacian Matrices are easily to build your spectral-based model. Message passing functions are easily to build spatial-based model.",
+        content: "Multiple Laplacian matrices are easily to build your spectral-based model. Message passing functions are easily to build your spatial-based model.",
       },
       {
         idx: 4,
@@ -55,18 +55,18 @@ export default {
       },
       {
         idx: 6,
-        title: "Attach Spectral/Spatial-Based Operation to Structure",
+        title: "Attach Spectral/Spatial-Based Operations to Structure",
         content: "In DHG, those Laplacian matrices and message passing functions are attached to the graph/hypergraph structure. As soon as you build a structure with DHG, those functions will be ready to be used in the process of building your model.",
       },
       {
         idx: 7,
         title: "Comprehensive, Flexible, and Convenience",
-        content: "DHG provides random graph/hypergraph generation, provides various state-of-the-art graph/hypergraph convolutional layers and models, provides various public graph/hypergraph datasets, and provides various evaluation metrics.",
+        content: "DHG provides random graph/hypergraph generators, various state-of-the-art graph/hypergraph convolutional layers and models, various public graph/hypergraph datasets, and various evaluation metrics.",
       },
       {
         idx: 8,
         title: "Support Tuning Structure and Model with Auto-ML",
-        content: "The optuna library endows DHG with the Auto-ML ability. DHG supports automatically searching the best hyper-parameters for the construction of graph/hypergraph structure and the best hyper-parameters for your model and training.",
+        content: "The Optuna library endows DHG with the Auto-ML ability. DHG supports automatically searching the optimal configurations for the construction of graph/hypergraph structure and the optimal hyper-parameters for your model and training.",
       },
     ],
   }),
