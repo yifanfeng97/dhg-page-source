@@ -55,7 +55,7 @@ export default {
       },
       {
         idx: 6,
-        title: "Attach spectral/spatial-based operation to structure",
+        title: "Attach Spectral/Spatial-Based Operation to Structure",
         content: "In DHG, those Laplacian matrices and message passing functions are attached to the graph/hypergraph structure. As soon as you build a structure with DHG, those functions will be ready to be used in the process of building your model.",
       },
       {
