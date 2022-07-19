@@ -28,8 +28,10 @@
     </v-app-bar>
 
     <v-main>
-      <TopDescribe />
-      <BackGround />
+      <MyMotivation class="my-6"/>
+      <MyAdvantage class="my-6" />
+      <MyExample class="my-6" />
+      <MyTeam class="my-6" />
     </v-main>
 
     <v-footer color="primary" dark padless>
@@ -64,15 +66,19 @@
 </template>
 
 <script>
-import BackGround from "./components/Motivation";
-import TopDescribe from "./components/TopDescribe";
+import MyMotivation from "./components/Motivation";
+import MyAdvantage from "./components/Advantage";
+import MyExample from "./components/Example";
+import MyTeam from "./components/Team";
 
 export default {
   name: "App",
 
   components: {
-    BackGround,
-    TopDescribe,
+    MyMotivation,
+    MyAdvantage,
+    MyExample,
+    MyTeam,
   },
 
   data: () => ({
