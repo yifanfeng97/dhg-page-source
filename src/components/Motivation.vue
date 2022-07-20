@@ -13,9 +13,8 @@
         <span class="text-h4"> Propagate Messages Like Neurons </span>
       </v-col>
     </v-row>
-    <v-row class="my-6 align-center">
-      <v-spacer></v-spacer>
-      <v-col cols="12" lg="4" class="mr-4">
+    <v-row class="my-6" align="center" justify="center">
+      <v-col cols="10" lg="4" class="mr-4">
         <v-card>
           <v-card-title>
             <span
@@ -39,7 +38,7 @@
           class="my-3"
           contain
           transition="slide-x-transition"
-          max-height="320"
+          max-height="330"
         />
       </v-col>
     </v-row>

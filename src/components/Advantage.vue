@@ -3,8 +3,8 @@
     <v-row>
       <v-col class="mb-4 text-h3 text-center" cols="12"> DHG's Advantages </v-col>
     </v-row>
-    <v-row>
-      <v-col cols="12" md="6" lg="3" v-for="item in advs" :key="item.idx">
+    <v-row justify="center">
+      <v-col cols="10" md="6" lg="3" v-for="item in advs" :key="item.idx">
         <v-card class="text-center">
           <v-card-text>
             <span class="mb-5 text-h5 black--text" style="word-break: Keep-all">
@@ -45,7 +45,7 @@ export default {
       },
       {
         idx: 4,
-        title: "Structure Visualization of Graphs and Hypergraphs",
+        title: "Visualization of Graphs and Hypergraphs",
         content: "DHG provides a powerful visualization tool for graphs and hypergraphs. You can easily visualize the structure of your graphs and hypergraphs.",
       },
       {

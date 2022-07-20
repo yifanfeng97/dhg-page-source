@@ -3,11 +3,13 @@
     <v-row>
       <v-col class="text-h3 mt-6 text-center" cols="12"> Examples </v-col>
     </v-row>
-    <v-row>
+    <v-row justify="center">
       <v-col
         class="mb-6"
         cols="12"
-        md="6"
+        sm="10"
+        lg="6"
+        xl="5"
         v-for="item in examples"
         :key="item.idx"
       >
@@ -38,22 +40,22 @@ export default {
       {
         idx: 1,
         src: require("../assets/examples/GCNConv.png"),
-        title: "The Convolution Layer of GCN on Graphs",
+        title: "The Convolution Layer of GCN",
       },
       {
         idx: 2,
         src: require("../assets/examples/HGNNConv.png"),
-        title: "The Convolution Layer of HGNN on Hypergraphs",
+        title: "The Convolution Layer of HGNN",
       },
       {
         idx: 3,
         src: require("../assets/examples/GATConv.png"),
-        title: "The Convolution Layer of GAT on Graphs",
+        title: "The Convolution Layer of GAT",
       },
       {
         idx: 4,
         src: require("../assets/examples/HGNNPConv.png"),
-        title: "The Convolution Layer of HGNN+ on Hypergraphs",
+        title: "The Convolution Layer of HGNN+",
       },
     ],
   }),

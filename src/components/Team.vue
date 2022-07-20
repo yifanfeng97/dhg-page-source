@@ -5,10 +5,10 @@
         The Core DHG Team
       </v-col>
     </v-row>
-    <v-row>
-      <v-col cols="12" md="6" lg="3" v-for="item in members" :key="item.idx">
+    <v-row justify="center">
+      <v-col cols="7" md="5" lg="2"  v-for="item in members" :key="item.idx">
         <v-card class="text-center">
-          <v-img height="400" :aspect-ratio="1/1" :src="item.img" contain></v-img>
+          <v-img :aspect-ratio="1/1" :src="item.img" ></v-img>
           <v-card-title class="justify-center">
             <span v-if="item.page">
               <a class="text-decoration-none" :href="item.page" target="_blank"
@@ -20,7 +20,7 @@
             </span>
           </v-card-title>
           <v-card-text class="d-flex flex-column">
-            <span class="font-weight-regular black--text text-body-1">
+            <span class="font-weight-medium black--text text-subtitle-1">
               {{ item.role }}
             </span>
             <span>
@@ -62,7 +62,7 @@ export default {
         role: "Contributor",
         contribution:
           "Contributor of feature visualization in Euclidean Space and Hyperbolic Space.",
-        img: require("../assets/team/fengyifan.jpg"),
+        img: require("../assets/team/tangqingmei.jpg"),
         page: null,
       },
       {
