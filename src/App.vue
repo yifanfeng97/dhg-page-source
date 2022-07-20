@@ -28,29 +28,29 @@
     </v-app-bar>
 
     <v-main>
-      <MyMotivation class="my-6"/>
+      <MyMotivation class="my-6" />
       <MyAdvantage class="my-6" />
       <MyExample class="my-6" />
       <MyTeam class="my-6" />
     </v-main>
 
     <v-footer color="primary" dark padless>
-      <v-container fluid class="pa-0">
+      <v-container fluid>
         <v-row class="align-center" no-gutters>
-          <v-col cols="12" md="10">
-            <v-card-subtitle class="text-center pb-1 text-subtitle-1">
-              <strong>iMoon: Intelligent Media and Cognition Lab</strong>
-            </v-card-subtitle>
-            <v-card-text class="text-center">
+          <v-col cols="12" class="py-1">
+            <div class="text-center pb-2 text-h6">
+              <strong>DHG: Deep HyperGraph</strong>
+            </div>
+            <div class="text-center">
               iMoon-Lab. Copyright © 2022 -
               {{ new Date().getFullYear() }}, All rights reserved.
-            </v-card-text>
+            </div>
           </v-col>
-          <v-col cols="12" md="2" class="d-flex justify-center">
+          <v-col cols="12" class="d-flex justify-center py-1">
             <v-btn
+              class="mx-3"
               v-for="item in icons"
               :key="item.idx"
-              class="mx-1"
               :href="item.link"
               icon
             >

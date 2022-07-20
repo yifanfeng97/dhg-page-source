@@ -4,7 +4,7 @@
       <v-col class="mb-4 text-h3 text-center" cols="12"> DHG's Advantages </v-col>
     </v-row>
     <v-row>
-      <v-col cols="6" lg="3" v-for="item in advs" :key="item.idx">
+      <v-col cols="12" md="6" lg="3" v-for="item in advs" :key="item.idx">
         <v-card class="text-center">
           <v-card-text>
             <span class="mb-5 text-h5 black--text" style="word-break: Keep-all">

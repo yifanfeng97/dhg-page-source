@@ -19,15 +19,15 @@
         <v-card>
           <v-card-title>
             <span
-              class="mb-5 text-h4 font-weight-medium"
+              class="mb-5 text-h4 font-weight-medium text-center"
               style="word-break: Keep-all"
             >
-              DHG is the deep learning library for both Graph Neural Networks and
-              Hypergraph Neural Networks
+              DHG is the deep learning library for both Graph Neural Networks
+              and Hypergraph Neural Networks
             </span>
           </v-card-title>
           <v-card-text>
-            <p class="text-h5 font-weight-regular">
+            <p class="text-h5 font-weight-regular text-center">
               Build Graph Learning and Hypergraph Learning pipelines with ease.
             </p>
           </v-card-text>
