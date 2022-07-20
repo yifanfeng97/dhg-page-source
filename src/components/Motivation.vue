@@ -22,13 +22,13 @@
               class="mb-5 text-h4 font-weight-medium"
               style="word-break: Keep-all"
             >
-              DHG is the ultimate library for both Graph Neural Networks and
+              DHG is the deep learning library for both Graph Neural Networks and
               Hypergraph Neural Networks
             </span>
           </v-card-title>
           <v-card-text>
             <p class="text-h5 font-weight-regular">
-              Build Graph Learning and Hypergraph Learning with ease.
+              Build Graph Learning and Hypergraph Learning pipelines with ease.
             </p>
           </v-card-text>
         </v-card>
