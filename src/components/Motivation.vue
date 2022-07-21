@@ -10,7 +10,7 @@
         />
       </v-col>
       <v-col cols="12">
-        <span class="text-h4"> Propagate Messages Like Neurons </span>
+        <span class="text-h3"> Propagate Messages Like Neurons </span>
       </v-col>
     </v-row>
     <v-row class="my-6" align="center" justify="center">

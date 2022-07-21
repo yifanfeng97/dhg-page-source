@@ -39,7 +39,7 @@
         <v-row class="align-center" no-gutters>
           <v-col cols="12" class="py-1">
             <div class="text-center pb-2 text-h6">
-              <strong>DHG: Deep HyperGraph</strong>
+              <strong>Deep HyperGraph</strong>
             </div>
             <div class="text-center">
               iMoon-Lab. Copyright © 2022 -

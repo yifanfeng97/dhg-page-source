@@ -36,12 +36,12 @@ export default {
       {
         idx: 2,
         title: "Shared Ecosystem with Pytorch Framework",
-        content: "DHG is built based on Pytorch, and any Pytorch-based model can be integrated into DHG. If you are familiar with Pytorch, you can easily use DHG.",
+        content: "DHG is built upon Pytorch, and any Pytorch-based models can be integrated into DHG. If you are familiar with Pytorch, you can easily use DHG.",
       },
       {
         idx: 3,
         title: "Powerful API for Designing GNNs and HGNNs",
-        content: "Multiple Laplacian matrices are easily to build your spectral-based model. Message passing functions are easily to build your spatial-based model.",
+        content: "DHG provides multiple Laplacian matrices and message passing functions to help build your spectral/spatial-based models, respectively.",
       },
       {
         idx: 4,
