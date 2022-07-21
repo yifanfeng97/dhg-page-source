@@ -5,9 +5,9 @@
     </v-row>
     <v-row justify="center" class="mb-6">
       <v-col
-        cols="7"
-        md="5"
-        lg="2"
+        cols="8"
+        md="3"
+        xl="2"
         v-for="item in core_members"
         :key="item.idx"
       >
@@ -39,9 +39,9 @@
     </v-row>
     <v-row justify="center">
       <v-col
-        cols="7"
-        md="5"
-        lg="2"
+        cols="8"
+        md="3"
+        xl="2"
         v-for="item in contributors"
         :key="item.idx"
       >
