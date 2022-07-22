@@ -2,15 +2,15 @@
   <v-container>
     <v-row class="text-center my-6">
       <v-col cols="12">
+        <span class="text-h3"> Propagate Messages Like Neurons </span>
+      </v-col>
+      <v-col cols="12">
         <v-img
           :src="require('../assets/logo_DHG.svg')"
           class="my-3"
           contain
           max-height="200"
         />
-      </v-col>
-      <v-col cols="12">
-        <span class="text-h3"> Propagate Messages Like Neurons </span>
       </v-col>
     </v-row>
     <v-row class="my-6" align="center" justify="center">

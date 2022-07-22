@@ -41,7 +41,7 @@ export default {
       {
         idx: 3,
         title: "Powerful API for Designing GNNs and HGNNs",
-        content: "DHG provides multiple Laplacian matrices and message passing functions to help build your spectral/spatial-based models, respectively.",
+        content: "DHG provides various Laplacian matrices and message passing functions to help build your spectral/spatial-based models, respectively.",
       },
       {
         idx: 4,
