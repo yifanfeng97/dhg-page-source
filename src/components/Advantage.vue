@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col class="mt-4 text-h3 text-center font-weight-bold" cols="12">
+      <v-col class="mt-4 text-h4 text-center font-weight-bold" cols="12">
         DHG's Advantages
       </v-col>
     </v-row>
@@ -9,14 +9,14 @@
       <v-col cols="10" md="6" lg="3" v-for="item in advs" :key="item.idx">
         <v-hover v-slot="{ hover }" open-delay="100">
           <v-card class="text-center rounded-lg" :elevation="hover ? 12 : 4" hover>
-            <v-card-text>
+            <v-card-title>
               <span
-                class="mb-5 text-h5 black--text"
+                class="text-h5 black--text font-weight-medium"
                 style="word-break: Keep-all"
               >
                 {{ item.title }}
               </span>
-            </v-card-text>
+            </v-card-title>
             <v-card-text>
               <p class="text-body-1">
                 {{ item.content }}

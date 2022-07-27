@@ -10,34 +10,17 @@
         width="45"
       />
 
-      <!-- <v-spacer></v-spacer> -->
-      <!-- <v-toolbar-title>
-        <span class="text-h3 font-weight-medium"> Deep HyperGraph </span>
-      </v-toolbar-title> -->
-
-      <!-- <v-spacer></v-spacer> -->
-
-      <!-- <v-divider vertical class="mx-2"> </v-divider> -->
-      <!-- <span class="text-h4 ml-3 text-no-wrap "> Deep HyperGraph </span> -->
-      <!-- <span class="text-h5 ml-3"> Deep HyperGraph </span> -->
-
       <v-toolbar-title class="text-h4 font-weight-medium grow">
         Deep HyperGraph
       </v-toolbar-title>
 
       <v-tabs align-with-title>
-        <v-tab>News</v-tab>
-        <v-tab>Tutorials</v-tab>
-        <v-tab>Docs</v-tab>
-        <v-tab>Github</v-tab>
-        <v-tab>Join Us</v-tab>
+        <v-tab class="text-subtitle-1 font-weight-bold">News</v-tab>
+        <v-tab class="text-subtitle-1 font-weight-bold">Tutorials</v-tab>
+        <v-tab class="text-subtitle-1 font-weight-bold">Docs</v-tab>
+        <v-tab class="text-subtitle-1 font-weight-bold">Github</v-tab>
+        <v-tab class="text-subtitle-1 font-weight-bold">Join Us</v-tab>
       </v-tabs>
-
-      <!-- <span class="text-h4 ml-3 text-no-wrap"> Deep HyperGraph </span> -->
-
-      <!-- <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn> -->
 
       <v-spacer></v-spacer>
 
@@ -63,6 +46,16 @@
     </v-app-bar>
 
     <v-main>
+      <video
+          loop
+          muted
+          autoplay
+          playsinline
+          width="100%"
+          :src="video_src"
+        >
+          <p>Your browser does not support the video tag.</p>
+        </video>
       <MyMotivation />
       <MyAdvantage />
       <MyExample />
@@ -114,6 +107,25 @@ export default {
     MyAdvantage,
     MyExample,
     MyTeam,
+  },
+
+  computed: {
+    video_src() {
+      switch (this.$vuetify.breakpoint.name) {
+        case "xs":
+          return require("./assets/neuron_actions_4s_v1_text.mp4");
+        case "sm":
+          return require("./assets/neuron_actions_4s_v1_text.mp4");
+        case "md":
+          return require("./assets/neuron_actions_4s_v1_wide_text.mp4");
+        case "lg":
+          return require("./assets/neuron_actions_4s_v1_wide_text.mp4");
+        case "xl":
+          return require("./assets/neuron_actions_4s_v1_wide_text.mp4");
+        default:
+          return require("./assets/neuron_actions_4s_v1_wide_text.mp4");
+      }
+    },
   },
 
   data: () => ({

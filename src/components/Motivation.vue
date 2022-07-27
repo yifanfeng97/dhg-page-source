@@ -1,9 +1,6 @@
 <template>
   <v-container>
-    <v-row class="text-center">
-      <!-- <v-col cols="12">
-        <span class="text-h3"> Propagate Messages Like Neurons </span>
-      </v-col> -->
+    <!--<v-row class="text-center">
       <v-col cols="12">
         <video
           loop
@@ -17,22 +14,22 @@
           <p>Your browser does not support the video tag.</p>
         </video>
       </v-col>
-    </v-row>
+    </v-row>-->
     <v-row align="center" justify="center">
-      <v-col cols="10" lg="4">
+      <v-col cols="10" lg="4" xl="3">
         <v-card class="rounded-lg" elevation="4">
           <v-card-title>
             <span
-              class="mb-5 text-h4 font-weight-regular text-center"
+              class="text-h5 font-weight-medium text-center"
               style="word-break: Keep-all"
             >
-              <span class="font-weight-bold">DHG</span> is the deep learning
+              <span class="font-weight-bold">DHG</span> is a deep learning
               library for both Graph Neural Networks and Hypergraph Neural
               Networks
             </span>
           </v-card-title>
           <v-card-text>
-            <p class="text-h5 font-weight-regular text-center">
+            <p class="text-body-1 font-weight-regular text-center">
               Build Graph Learning and Hypergraph Learning pipelines with ease.
             </p>
           </v-card-text>
@@ -55,24 +52,24 @@
 export default {
   name: "MyMotivation",
 
-  computed: {
-    video_src() {
-      switch (this.$vuetify.breakpoint.name) {
-        case "xs":
-          return require("../assets/neuron_actions_4s_v1_text.mp4");
-        case "sm":
-          return require("../assets/neuron_actions_4s_v1_text.mp4");
-        case "md":
-          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-        case "lg":
-          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-        case "xl":
-          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-        default:
-          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-      }
-    },
-  },
+  // computed: {
+  //   video_src() {
+  //     switch (this.$vuetify.breakpoint.name) {
+  //       case "xs":
+  //         return require("../assets/neuron_actions_4s_v1_text.mp4");
+  //       case "sm":
+  //         return require("../assets/neuron_actions_4s_v1_text.mp4");
+  //       case "md":
+  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+  //       case "lg":
+  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+  //       case "xl":
+  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+  //       default:
+  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+  //     }
+  //   },
+  // },
 
   data: () => ({}),
 };

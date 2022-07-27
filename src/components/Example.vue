@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col class="mt-6 text-h3 text-center font-weight-bold" cols="12">
+      <v-col cols="12" class="mt-6 text-h4 text-center font-weight-bold">
         Examples
       </v-col>
     </v-row>
