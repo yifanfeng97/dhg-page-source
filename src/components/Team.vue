@@ -1,7 +1,9 @@
 <template>
   <v-container>
     <v-row>
-      <v-col class="text-h4 text-center" cols="12"> DHG Core Team </v-col>
+      <v-col class="text-h4 text-center font-weight-bold" cols="12">
+        DHG Core Team
+      </v-col>
     </v-row>
     <v-row justify="center" class="mb-6">
       <v-col
@@ -35,7 +37,9 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col class="text-h4 text-center" cols="12"> DHG Contributors </v-col>
+      <v-col class="text-h4 text-center font-weight-bold" cols="12">
+        DHG Contributors
+      </v-col>
     </v-row>
     <v-row justify="center">
       <v-col

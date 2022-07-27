@@ -1,9 +1,9 @@
 <template>
   <v-container>
     <v-row class="text-center">
-      <v-col cols="12">
+      <!-- <v-col cols="12">
         <span class="text-h3"> Propagate Messages Like Neurons </span>
-      </v-col>
+      </v-col> -->
       <v-col cols="12">
         <video
           loop
@@ -12,22 +12,23 @@
           playsinline
           class="my-3"
           width="100%"
-          :src="require('../assets/neuron_actions_4s_v1.mp4')"
+          :src="video_src"
         >
-        <p>Your browser does not support the video tag.</p>
+          <p>Your browser does not support the video tag.</p>
         </video>
       </v-col>
     </v-row>
-    <v-row class="my-6" align="center" justify="center">
-      <v-col cols="10" lg="4" class="mr-4">
-        <v-card>
+    <v-row align="center" justify="center">
+      <v-col cols="10" lg="4">
+        <v-card class="rounded-lg" elevation="4">
           <v-card-title>
             <span
-              class="mb-5 text-h4 font-weight-medium text-center"
+              class="mb-5 text-h4 font-weight-regular text-center"
               style="word-break: Keep-all"
             >
-              DHG is the deep learning library for both Graph Neural Networks
-              and Hypergraph Neural Networks
+              <span class="font-weight-bold">DHG</span> is the deep learning
+              library for both Graph Neural Networks and Hypergraph Neural
+              Networks
             </span>
           </v-card-title>
           <v-card-text>
@@ -53,6 +54,25 @@
 <script>
 export default {
   name: "MyMotivation",
+
+  computed: {
+    video_src() {
+      switch (this.$vuetify.breakpoint.name) {
+        case "xs":
+          return require("../assets/neuron_actions_4s_v1_text.mp4");
+        case "sm":
+          return require("../assets/neuron_actions_4s_v1_text.mp4");
+        case "md":
+          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+        case "lg":
+          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+        case "xl":
+          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+        default:
+          return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
+      }
+    },
+  },
 
   data: () => ({}),
 };

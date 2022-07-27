@@ -28,10 +28,10 @@
     </v-app-bar>
 
     <v-main>
-      <MyMotivation class="my-6" />
-      <MyAdvantage class="my-6" />
-      <MyExample class="my-6" />
-      <MyTeam class="my-6" />
+      <MyMotivation />
+      <MyAdvantage />
+      <MyExample />
+      <MyTeam />
     </v-main>
 
     <v-footer color="primary" dark padless>

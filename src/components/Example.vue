@@ -1,7 +1,9 @@
 <template>
   <v-container>
     <v-row>
-      <v-col class="text-h3 mt-6 text-center" cols="12"> Examples </v-col>
+      <v-col class="mt-6 text-h3 text-center font-weight-bold" cols="12">
+        Examples
+      </v-col>
     </v-row>
     <v-row justify="center">
       <v-col
