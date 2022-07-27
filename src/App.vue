@@ -5,10 +5,25 @@
         alt="Vuetify Logo"
         class="shrink mx-3"
         contain
-        src="./assets/logo_DHG_white.png"
+        src="./assets/logo_white.svg"
         transition="scale-transition"
-        width="160"
+        width="45"
       />
+
+      <!-- <v-spacer></v-spacer> -->
+      <!-- <v-toolbar-title>
+        <span class="text-h3 font-weight-medium"> Deep HyperGraph </span>
+      </v-toolbar-title> -->
+
+      <!-- <v-spacer></v-spacer> -->
+
+      <!-- <v-divider vertical class="mx-2"> </v-divider> -->
+      <!-- <span class="text-h4 ml-3 text-no-wrap "> Deep HyperGraph </span> -->
+      <!-- <span class="text-h5 ml-3"> Deep HyperGraph </span> -->
+
+      <v-toolbar-title class="text-h4 font-weight-medium grow">
+        Deep HyperGraph
+      </v-toolbar-title>
 
       <v-tabs align-with-title>
         <v-tab>News</v-tab>
@@ -18,13 +33,33 @@
         <v-tab>Join Us</v-tab>
       </v-tabs>
 
+      <!-- <span class="text-h4 ml-3 text-no-wrap"> Deep HyperGraph </span> -->
+
       <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn> -->
 
-      <v-btn icon href="https://moon-lab.tech/" target="_blank" text>
+      <v-spacer></v-spacer>
+
+      <v-btn
+        class="mx-2"
+        icon
+        href="https://moon-lab.tech/"
+        target="_blank"
+        text
+      >
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
+
+      <!-- <template v-slot:extension>
+        <v-tabs align-with-title class="d-flex justify-center">
+          <v-tab>News</v-tab>
+          <v-tab>Tutorials</v-tab>
+          <v-tab>Docs</v-tab>
+          <v-tab>Github</v-tab>
+          <v-tab>Join Us</v-tab>
+        </v-tabs>
+      </template> -->
     </v-app-bar>
 
     <v-main>
