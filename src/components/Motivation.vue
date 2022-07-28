@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="mb-6">
     <!--<v-row class="text-center">
       <v-col cols="12">
         <video
@@ -41,7 +41,7 @@
           class="my-3"
           contain
           transition="slide-x-transition"
-          max-height="330"
+          max-height="280"
         />
       </v-col>
     </v-row>

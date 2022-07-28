@@ -46,16 +46,9 @@
     </v-app-bar>
 
     <v-main>
-      <video
-          loop
-          muted
-          autoplay
-          playsinline
-          width="100%"
-          :src="video_src"
-        >
-          <p>Your browser does not support the video tag.</p>
-        </video>
+      <video loop muted autoplay playsinline width="100%" :src="video_src">
+        <p>Your browser does not support the video tag.</p>
+      </video>
       <MyMotivation />
       <MyAdvantage />
       <MyExample />
