@@ -94,7 +94,7 @@ export default {
         name: "Xinwei Zhang",
         role: "Core Contributor",
         contribution:
-          "Data Module, Random Module, and Structure Visualization.",
+          "Random Module, and Structure Visualization.",
         img: require("../assets/team/core/zhangxinwei.jpg"),
         page: null,
       },
