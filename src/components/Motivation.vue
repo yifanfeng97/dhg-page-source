@@ -31,7 +31,7 @@
           <v-card-text class="text-body-1 font-weight-regular text-center">
             <span>
               One path in <span class="font-weight-medium">DHG</span> can
-              propage messages from vertex to vertex or from vertex set to
+              propagate messages from vertex to vertex or from vertex set to
               vertex set.
             </span>
           </v-card-text>

@@ -53,6 +53,8 @@
       <MyAdvantage />
       <MyExample />
       <MyTeam />
+      <v-responsive height=200>
+      </v-responsive>
     </v-main>
 
     <v-footer color="primary" dark padless>

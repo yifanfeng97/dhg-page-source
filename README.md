@@ -1,7 +1,9 @@
 # dhg-page
 
 ## Deploy the dist
+
 After commit and push, you can execute the command to update the "my" branch.
+
 ```
 git subtree push --prefix dist origin my
 ```
