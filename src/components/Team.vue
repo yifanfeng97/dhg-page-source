@@ -43,15 +43,15 @@
     </v-row>
     <v-row justify="center">
       <v-col
-        cols="8"
-        md="3"
-        xl="2"
+        cols="5"
+        md="2"
+        xl="1"
         v-for="item in contributors"
         :key="item.idx"
       >
         <v-card class="text-center">
           <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
-          <v-card-title class="justify-center">
+          <v-card-title class="justify-center body-1 font-weight-bold" style="word-break: Keep-all">
             <span v-if="item.page">
               <a class="text-decoration-none" :href="item.page" target="_blank"
                 >{{ item.name }}
@@ -62,12 +62,12 @@
             </span>
           </v-card-title>
           <v-card-text class="d-flex flex-column">
-            <span class="font-weight-medium black--text text-subtitle-1">
+            <!-- <span class="font-weight-medium black--text text-subtitle-1">
               {{ item.role }}
-            </span>
-            <span>
+            </span> -->
+            <!-- <span>
               {{ item.contribution }}
-            </span>
+            </span> -->
           </v-card-text>
         </v-card>
       </v-col>
