@@ -16,9 +16,24 @@
 
       <v-tabs align-with-title>
         <v-tab class="text-subtitle-1 font-weight-bold">News</v-tab>
-        <v-tab class="text-subtitle-1 font-weight-bold">Tutorials</v-tab>
-        <v-tab class="text-subtitle-1 font-weight-bold">Docs</v-tab>
-        <v-tab class="text-subtitle-1 font-weight-bold">Github</v-tab>
+        <v-tab
+          class="text-subtitle-1 font-weight-bold"
+          href="https://deephypergraph.readthedocs.io/en/latest/tutorial/overview.html"
+          target="_blank"
+          >Tutorials</v-tab
+        >
+        <v-tab
+          class="text-subtitle-1 font-weight-bold"
+          href="https://deephypergraph.readthedocs.io/"
+          target="_blank"
+          >Docs</v-tab
+        >
+        <v-tab
+          class="text-subtitle-1 font-weight-bold"
+          href="https://github.com/iMoonLab/DeepHypergraph/"
+          target="_blank"
+          >Github</v-tab
+        >
         <v-tab class="text-subtitle-1 font-weight-bold">Join Us</v-tab>
       </v-tabs>
 
@@ -53,8 +68,7 @@
       <MyAdvantage />
       <MyExample />
       <MyTeam />
-      <v-responsive height=200>
-      </v-responsive>
+      <v-responsive height="200"> </v-responsive>
     </v-main>
 
     <v-footer color="primary" dark padless>
