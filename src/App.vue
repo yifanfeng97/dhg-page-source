@@ -24,9 +24,15 @@
         >
         <v-tab
           class="text-subtitle-1 font-weight-bold"
-          href="https://deephypergraph.readthedocs.io/"
+          href="https://deephypergraph.com/docs/"
           target="_blank"
           >Docs</v-tab
+        >
+        <v-tab
+          class="text-subtitle-1 font-weight-bold"
+          href="https://github.com/iMoonLab/DeepHypergraph/discussions"
+          target="_blank"
+          >Discussions</v-tab
         >
         <v-tab
           class="text-subtitle-1 font-weight-bold"
