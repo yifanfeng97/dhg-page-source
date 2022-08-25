@@ -51,14 +51,17 @@
       >
         <v-card class="text-center">
           <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
-          <v-card-title class="justify-center body-1 font-weight-bold" style="word-break: Keep-all">
+          <v-card-title
+            class="justify-center body-1 font-weight-bold"
+            style="word-break: Keep-all"
+          >
             <span v-if="item.page">
               <a class="text-decoration-none" :href="item.page" target="_blank"
-                >{{ item.name }}
+                >{{ item.first_name }}<br />{{ item.second_name }}
               </a>
             </span>
             <span v-else>
-              {{ item.name }}
+              {{ item.first_name }}<br />{{ item.second_name }}
             </span>
           </v-card-title>
           <v-card-text class="d-flex flex-column">
@@ -93,8 +96,7 @@ export default {
         idx: 2,
         name: "Xinwei Zhang",
         role: "Core Contributor",
-        contribution:
-          "Random Module, and Structure Visualization.",
+        contribution: "Random Module, and Structure Visualization.",
         img: require("../assets/team/core/zhangxinwei.jpg"),
         page: null,
       },
@@ -110,10 +112,20 @@ export default {
     contributors: [
       {
         idx: 1,
-        name: "Qingmei Tang",
+        first_name: "Jielong",
+        second_name: "Yan",
         role: "Contributor",
         contribution:
           "Feature Visualization in Euclidean Space and Hyperbolic Space.",
+        img: require("../assets/team/contributor/yanjielong.jpg"),
+        page: null,
+      },
+      {
+        idx: 2,
+        first_name: "Qingmei",
+        second_name: "Tang",
+        role: "Contributor",
+        contribution: "Documents and Tests",
         img: require("../assets/team/contributor/tangqingmei.jpg"),
         page: null,
       },
