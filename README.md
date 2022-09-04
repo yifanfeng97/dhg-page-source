@@ -1,12 +1,10 @@
-# dhg-page
+# deephypergraph.com
 
-<!-- ## Deploy the dist
+![Build Status](https://github.com/yifanfeng97/dhg-page-source/actions/workflows/Vue2Pages.yml/badge.svg)
 
-After commit and push, you can execute the command to update the "my" branch.
+This is the source code for the website [deephypergraph.com](https://deephypergraph.com/).
 
-```
-git subtree push --prefix dist origin my
-``` -->
+
 
 ## Project setup
 ```
