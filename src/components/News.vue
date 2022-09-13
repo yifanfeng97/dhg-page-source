@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="11" md="11" xl="6">
+      <v-col cols="12" md="11" xl="8">
         <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
           <v-timeline-item
             v-for="item in items.slice().reverse()"
