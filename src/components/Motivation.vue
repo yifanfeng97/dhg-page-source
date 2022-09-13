@@ -1,20 +1,5 @@
 <template>
   <v-container class="mb-6">
-    <!--<v-row class="text-center">
-      <v-col cols="12">
-        <video
-          loop
-          muted
-          autoplay
-          playsinline
-          class="my-3"
-          width="100%"
-          :src="video_src"
-        >
-          <p>Your browser does not support the video tag.</p>
-        </video>
-      </v-col>
-    </v-row>-->
     <v-row align="center" justify="center">
       <v-col cols="10" lg="4" xl="3">
         <v-card class="rounded-lg" elevation="4">
@@ -24,7 +9,7 @@
               style="word-break: Keep-all"
             >
               <span class="font-weight-bold">DHG</span> is a deep learning
-              library for both Graph Neural Networks and Hypergraph Neural
+              library for both Hypergraph Neural Networks and Graph Neural
               Networks
             </span>
           </v-card-title>
