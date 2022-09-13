@@ -67,7 +67,7 @@ export default {
         icon: "mdi-book-variant",
         time: "2022-09-02",
         title: "v0.9.1 Documents Done!",
-        content: "The documents of v0.9.1 is available now.",
+        content: "The documents of v0.9.1 are available now.",
         more: "https://deephypergraph.readthedocs.io/en/0.9.1/",
       },
       {
