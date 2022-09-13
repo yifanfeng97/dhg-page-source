@@ -10,9 +10,18 @@
             :icon="item.icon"
             fill-dot
           >
-            <span slot="opposite" class="text-h4">{{ item.time }}</span>
+            <span
+              slot="opposite"
+              :class="`headline font-weight-bold ${item.color}--text`"
+              >{{ item.time }}</span
+            >
             <v-card :color="item.color" dark>
-              <v-card-title class="text-h6"> {{ item.title }} </v-card-title>
+              <v-card-title class="text-h6">
+                <span v-if="$vuetify.breakpoint.smAndDown"
+                >{{ item.time }}👉</span
+                >
+                {{ item.title }}
+              </v-card-title>
               <v-card-text class="white text--primary pt-5 text-body-1">
                 <p>
                   {{ item.content }}
@@ -41,10 +50,10 @@ export default {
     items: [
       {
         idx: 0,
-        color: "purple ",
+        color: "purple",
         icon: "mdi-star",
         time: "2022-08-25",
-        title: "v0.9.1 Release",
+        title: "v0.9.1 Release!",
         content:
           "DHG's first version v0.9.1 is available now. It supports a wide variety of structures like low-order structures \
           (simple graph, directed graph, bipartite graph, etc.), high-order structures (simple hypergraph, etc.). \
@@ -54,10 +63,10 @@ export default {
       },
       {
         idx: 2,
-        color: "green darken-3",
+        color: "teal",
         icon: "mdi-book-variant",
         time: "2022-09-02",
-        title: "v0.9.1 Documentation Release",
+        title: "v0.9.1 Documents Done!",
         content: "The documents of v0.9.1 is available now.",
         more: "https://deephypergraph.readthedocs.io/en/0.9.1/",
       },
@@ -66,7 +75,7 @@ export default {
         color: "indigo",
         icon: "mdi-airballoon",
         time: "2022-09-09",
-        title: "Rushing v0.9.2",
+        title: "Rushing v0.9.2!",
         content:
           "We are rushing to release v0.9.2. It will be available soon. More datasets, more SOTA methods, and various structure visualizations will be released in this version.",
         more: "https://deephypergraph.readthedocs.io/en/latest/",

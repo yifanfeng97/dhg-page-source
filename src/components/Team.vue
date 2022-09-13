@@ -149,7 +149,7 @@ export default {
         second_name: "Tang",
         role: "Contributor",
         contribution: "Documents",
-        img: require("../assets/team/contributor/tangqingmei1.jpg"),
+        img: require("../assets/team/contributor/tangqingmei2.jpg"),
         page: null,
       },
     ],
