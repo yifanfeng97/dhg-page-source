@@ -7,22 +7,22 @@
     </v-row>
     <v-row justify="center" class="my-6">
       <v-col cols="8" md="3" xl="2" v-for="item in advisors" :key="item.idx">
-        <v-card class="text-center">
-          <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
-          <v-card-title class="justify-center">
-            <span v-if="item.page">
-              <a
-                class="text-decoration-none black--text"
-                :href="item.page"
-                target="_blank"
-                >{{ item.name }}
-              </a>
-            </span>
-            <span v-else>
+        <v-hover v-slot="{ hover }" open-delay="100">
+          <v-card
+            class="text-center"
+            :href="item.page == '' ? undefined : item.page"
+            :target="item.page == '' ? undefined : '_blank'"
+            :elevation="hover ? 12 : 4"
+            hover
+          >
+            <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
+            <v-card-title
+              class="justify-center text-decoration-none black--text"
+            >
               {{ item.name }}
-            </span>
-          </v-card-title>
-        </v-card>
+            </v-card-title>
+          </v-card>
+        </v-hover>
       </v-col>
     </v-row>
     <v-row>
@@ -32,27 +32,27 @@
     </v-row>
     <v-row justify="center" class="mb-6">
       <v-col cols="8" md="3" xl="2" v-for="item in members" :key="item.idx">
-        <v-card class="text-center">
-          <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
-          <v-card-title class="justify-center pb-1">
-            <span v-if="item.page">
-              <a
-                class="text-decoration-none black--text"
-                :href="item.page"
-                target="_blank"
-                >{{ item.name }}
-              </a>
-            </span>
-            <span v-else>
+        <v-hover v-slot="{ hover }" open-delay="100">
+          <v-card
+            class="text-center"
+            :href="item.page == '' ? undefined : item.page"
+            :target="item.page == '' ? undefined : '_blank'"
+            :elevation="hover ? 12 : 4"
+            hover
+          >
+            <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
+            <v-card-title
+              class="justify-center pb-1 text-decoration-none black--text"
+            >
               {{ item.name }}
-            </span>
-          </v-card-title>
-          <v-card-text class="d-flex flex-column">
-            <span class="text-subtitle-1">
-              {{ item.role }}
-            </span>
-          </v-card-text>
-        </v-card>
+            </v-card-title>
+            <v-card-text class="d-flex flex-column">
+              <span class="text-subtitle-1">
+                {{ item.role }}
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-hover>
       </v-col>
     </v-row>
     <v-row>
@@ -68,22 +68,20 @@
         v-for="item in contributors"
         :key="item.idx"
       >
-        <v-card class="text-center">
-          <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
-          <v-card-title
-            class="justify-center body-1 font-weight-medium"
-            style="word-break: Keep-all"
+        <v-hover v-slot="{ hover }" open-delay="100">
+          <v-card
+            class="text-center"
+            :href="item.page == '' ? undefined : item.page"
+            :target="item.page == '' ? undefined : '_blank'"
+            :elevation="hover ? 12 : 4"
+            hover
           >
-            <span v-if="item.page">
-              <a class="text-decoration-none" :href="item.page" target="_blank"
-                >{{ item.first_name }}<br />{{ item.second_name }}
-              </a>
-            </span>
-            <span v-else>
+            <v-img :aspect-ratio="1 / 1" :src="item.img"></v-img>
+            <v-card-title class="justify-center body-1 font-weight-medium">
               {{ item.first_name }}<br />{{ item.second_name }}
-            </span>
-          </v-card-title>
-        </v-card>
+            </v-card-title>
+          </v-card>
+        </v-hover>
       </v-col>
     </v-row>
   </v-container>
@@ -137,9 +135,9 @@ export default {
         idx: 4,
         name: "Shuyi Ji",
         role: "Core Contributor",
-        contribution: null,
+        contribution: "",
         img: require("../assets/team/core/jishuyi.jpg"),
-        page: null,
+        page: "",
       },
     ],
     contributors: [
@@ -150,7 +148,7 @@ export default {
         role: "Contributor",
         contribution: "Documents",
         img: require("../assets/team/contributor/tangqingmei2.jpg"),
-        page: null,
+        page: "",
       },
     ],
   }),

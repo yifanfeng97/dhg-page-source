@@ -40,23 +40,23 @@
         <v-icon dark right>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer app v-model="drawer" temporary>
       <v-list nav>
-        <v-list-item-group
-          active-class="deep-purple--text text--accent-4"
-        >
+        <v-list-item-group active-class="deep-purple--text text--accent-4">
           <v-list-item
             v-for="tab in tabs"
             :key="tab.idx"
             :to="tab.to == '' ? undefined : tab.to"
-            :href="tab.link == '' ? false : tab.link"
+            :href="tab.link == '' ? undefined : tab.link"
             class="text-subtitle-1 font-weight-bold"
             :target="tab.link == '' ? undefined : '_blank'"
           >
             <v-list-item-icon>
               <v-icon>{{ tab.icon }}</v-icon>
             </v-list-item-icon>
-            <v-list-item-title class="text-h6">{{ tab.name }}</v-list-item-title>
+            <v-list-item-title class="text-h6">{{
+              tab.name
+            }}</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>
