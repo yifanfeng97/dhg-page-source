@@ -26,7 +26,7 @@
           v-for="tab in tabs"
           :key="tab.idx"
           :to="tab.to == '' ? undefined : tab.to"
-          :href="tab.link == '' ? false : tab.link"
+          :href="tab.link == '' ? undefined : tab.link"
           class="text-subtitle-1 font-weight-bold"
           :target="tab.link == '' ? undefined : '_blank'"
           >{{ tab.name }}</v-tab
@@ -35,9 +35,17 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn href="https://moon-lab.tech/" target="_blank" text>
+      <v-btn
+        v-if="!$vuetify.breakpoint.mobile"
+        href="https://moon-lab.tech/"
+        target="_blank"
+        text
+      >
         To Lab
         <v-icon dark right>mdi-open-in-new</v-icon>
+      </v-btn>
+      <v-btn v-else href="https://moon-lab.tech/" target="_blank" icon>
+        <v-icon dark>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
     <v-navigation-drawer app v-model="drawer" temporary>
