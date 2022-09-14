@@ -27,7 +27,7 @@
           class="my-3"
           contain
           transition="slide-x-transition"
-          max-height="280"
+          max-height="300"
         />
       </v-col>
     </v-row>

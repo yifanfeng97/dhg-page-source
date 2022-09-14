@@ -97,7 +97,7 @@ export default {
         idx: 1,
         name: "Qionghai Dai",
         img: require("../assets/team/advisor/daiqionghai.jpg"),
-        page: "https://ysg.ckcest.cn/html/details/8058/index.html",
+        page: "",
       },
       {
         idx: 2,
