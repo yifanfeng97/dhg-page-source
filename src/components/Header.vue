@@ -15,7 +15,7 @@
         width="45"
       />
 
-      <v-toolbar-title class="text-h4 font-weight-medium grow">
+      <v-toolbar-title class="text-h5 text-sm-h4 font-weight-medium grow">
         <router-link to="/" class="white--text text-decoration-none"
           >Deep HyperGraph
         </router-link>

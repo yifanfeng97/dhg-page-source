@@ -6,7 +6,7 @@
       </v-col>
     </v-row>
     <v-row justify="center" class="my-6">
-      <v-col cols="8" md="3" xl="2" v-for="item in advisors" :key="item.idx">
+      <v-col cols="10" md="3" xl="2" v-for="item in advisors" :key="item.idx">
         <v-hover v-slot="{ hover }" open-delay="100">
           <v-card
             class="text-center"
@@ -31,7 +31,7 @@
       </v-col>
     </v-row>
     <v-row justify="center" class="mb-6">
-      <v-col cols="8" md="3" xl="2" v-for="item in members" :key="item.idx">
+      <v-col cols="10" md="3" xl="2" v-for="item in members" :key="item.idx">
         <v-hover v-slot="{ hover }" open-delay="100">
           <v-card
             class="text-center"
@@ -62,7 +62,7 @@
     </v-row>
     <v-row justify="center">
       <v-col
-        cols="5"
+        cols="4"
         md="2"
         xl="1"
         v-for="item in contributors"

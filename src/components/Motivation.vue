@@ -1,12 +1,11 @@
 <template>
   <v-container class="mb-6">
     <v-row align="center" justify="center">
-      <v-col cols="10" lg="4" xl="3">
+      <v-col cols="12" lg="4" xl="3">
         <v-card class="rounded-lg" elevation="4">
           <v-card-title>
             <span
               class="text-h5 font-weight-medium text-center"
-              style="word-break: Keep-all"
             >
               <span class="font-weight-bold">DHG</span> is a deep learning
               library for both Hypergraph Neural Networks and Graph Neural
@@ -38,25 +37,6 @@
 <script>
 export default {
   name: "MyMotivation",
-
-  // computed: {
-  //   video_src() {
-  //     switch (this.$vuetify.breakpoint.name) {
-  //       case "xs":
-  //         return require("../assets/neuron_actions_4s_v1_text.mp4");
-  //       case "sm":
-  //         return require("../assets/neuron_actions_4s_v1_text.mp4");
-  //       case "md":
-  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-  //       case "lg":
-  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-  //       case "xl":
-  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-  //       default:
-  //         return require("../assets/neuron_actions_4s_v1_wide_text.mp4");
-  //     }
-  //   },
-  // },
 
   data: () => ({}),
 };

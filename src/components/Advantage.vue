@@ -6,13 +6,12 @@
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col cols="10" md="6" lg="3" v-for="item in advs" :key="item.idx">
+      <v-col cols="12" md="6" lg="3" v-for="item in advs" :key="item.idx">
         <v-hover v-slot="{ hover }" open-delay="100">
           <v-card class="text-center rounded-lg" :elevation="hover ? 12 : 4" hover>
             <v-card-title>
               <span
                 class="text-h5 black--text font-weight-medium"
-                style="word-break: Keep-all"
               >
                 {{ item.title }}
               </span>
