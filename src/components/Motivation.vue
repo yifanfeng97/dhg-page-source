@@ -21,7 +21,29 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" lg="7">
+      <v-col cols="12" sm="5" lg="3" xl="3">
+        <v-img
+          :src="require('../assets/motivation_graph.svg')"
+          contain
+          transition="slide-x-transition"
+          max-height="300"
+        />
+      </v-col>
+      <v-col v-if="$vuetify.breakpoint.xsOnly" cols="12" align="center">
+        <v-icon x-large color="teal darken-3">mdi-arrow-down-thick</v-icon>
+      </v-col>
+      <v-col v-else cols="1" align="center" justify="center">
+        <v-icon x-large color="teal darken-3">mdi-arrow-right-thick</v-icon>
+      </v-col>
+      <v-col cols="12" sm="5" lg="3" xl="3">
+        <v-img
+          :src="require('../assets/motivation_hypergraph.svg')"
+          contain
+          transition="slide-x-transition"
+          max-height="300"
+        />
+      </v-col>
+      <!-- <v-col cols="12" lg="7">
         <v-img
           :src="require('../assets/motivation.svg')"
           class="my-3"
@@ -29,7 +51,7 @@
           transition="slide-x-transition"
           max-height="300"
         />
-      </v-col>
+      </v-col> -->
     </v-row>
   </v-container>
 </template>

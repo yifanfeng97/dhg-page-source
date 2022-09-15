@@ -56,7 +56,7 @@ export default {
         title: "v0.9.1 Release!",
         content:
           "DHG's first version v0.9.1 is available now. It supports a wide variety of structures like low-order structures \
-          (simple graph, directed graph, bipartite graph, etc.), high-order structures (simple hypergraph, etc.). \
+          (graph, directed graph, bipartite graph, etc.), high-order structures (hypergraph, etc.). \
           Many state-of-the-art models are implemented and can be easily used for research. \
           In addition, DHG can help you automatically tune the hyper-parameters of your models in training and easily outperforms the state-of-the-art models.",
         more: "https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.1",
