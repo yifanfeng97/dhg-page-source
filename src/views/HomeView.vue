@@ -15,6 +15,7 @@
       <MyMotivation />
       <MyAdvantage />
       <MyExample />
+      <MyVisualization />
     </v-container>
   </div>
 </template>
@@ -23,6 +24,7 @@
 import MyMotivation from "@/components/Motivation";
 import MyAdvantage from "@/components/Advantage";
 import MyExample from "@/components/Example";
+import MyVisualization from '@/components/Visualization';
 
 export default {
   name: "HomeView",
@@ -31,6 +33,7 @@ export default {
     MyMotivation,
     MyAdvantage,
     MyExample,
+    MyVisualization,
   },
 
   computed: {

@@ -80,6 +80,20 @@ export default {
           "We are rushing to release v0.9.2. It will be available soon. More datasets, more SOTA methods, and various structure visualizations will be released in this version.",
         more: "https://deephypergraph.readthedocs.io/en/latest/",
       },
+      {
+        idx: 4,
+        color: "purple",
+        icon: "mdi-star",
+        time: "2022-09-25",
+        title: "v0.9.2 Release!",
+        content:
+          "We release the v0.9.2 version now! We have added 21 datasets, 6 SOTA methods, and structure and feature visualizations.\
+          New datasets (BlogCatalog, Flickr, Github, Facebook, TencentBiGraph, CoraBiGraph, PubmedBiGraph,\
+            CiteseerBiGraph, CoauthorshipCora, CoauthorshipDBLP, CocitationCora, CocitationCiteseer, CocitationPubmed, YelpRestaurant, WalmartTrips, HouseCommittees, News20);\
+          New SOTA methods (BGNN_Adv, BGNN_MLP, UniGCN, UniGAT, UniSAGE, UniGIN); Graph, directed graph, bipartite graph, and hypergraph structure visualization;\
+            Features visualizations; Random drop edges and more.",
+        more: "https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.2",
+      },
     ],
   }),
 };
