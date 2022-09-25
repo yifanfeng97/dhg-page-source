@@ -56,7 +56,7 @@ export default {
       {
         idx: 2,
         src: require("../assets/vis/hypergraph.png"),
-        title: "Hypergrpah",
+        title: "Hypergraph",
         page: "https://deephypergraph.readthedocs.io/en/latest/tutorial/vis_structure.html#visualization-of-hypergraph",
       },
       {
