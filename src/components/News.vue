@@ -94,6 +94,19 @@ export default {
             Features visualizations; Random drop edges and more.",
         more: "https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.2",
       },
+      {
+        idx: 5,
+        color: "purple",
+        icon: "mdi-star",
+        time: "2022-12-28",
+        title: "v0.9.3 Release!",
+        content:
+          "We release the v0.9.3 version now! We release the v0.9.3 version now! In v0.9.3, we add a hypergraph dataset, fix some known bugs, and add some hypergraph operation.\
+          New datasets (DBLP-8k contributed by @mgao97);\
+          Fix some known bugs (fix hypergraph D_v bugs ( h[v, e] -> w[e]*h[v, e] ), fix bug (ndcg and recall nan), etc.);\
+          New features (vertex weights of hypergraph, etc.)",
+        more: "https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.3",
+      },
     ],
   }),
 };
