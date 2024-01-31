@@ -137,7 +137,7 @@ export default {
         role: "Core Contributor",
         contribution: "",
         img: require("../assets/team/core/hanxiangmin.jpg"),
-        page: "",
+        page: "https://scholar.google.com/citations?user=Y96h0t0AAAAJ&hl=en",
       },
     ],
     contributors: [
