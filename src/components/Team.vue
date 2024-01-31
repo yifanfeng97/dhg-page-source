@@ -129,7 +129,7 @@ export default {
         role: "Core Contributor",
         contribution: "Chinese Documents",
         img: require("../assets/team/core/yanjielong2.jpg"),
-        page: "https://github.com/JasonYanj2",
+        page: "https://github.com/JasonYanjl",
       },
       {
         idx: 4,
