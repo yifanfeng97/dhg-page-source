@@ -133,16 +133,25 @@ export default {
       },
       {
         idx: 4,
-        name: "Shuyi Ji",
+        name: "Xiangmin Han",
         role: "Core Contributor",
         contribution: "",
-        img: require("../assets/team/core/jishuyi2.jpg"),
+        img: require("../assets/team/core/hanxiangmin.jpg"),
         page: "",
       },
     ],
     contributors: [
       {
         idx: 1,
+        first_name: "Shuyi",
+        second_name: "Ji",
+        role: "Contributor",
+        contribution: "Test",
+        img: require("../assets/team/contributor/jishuyi2.jpg"),
+        page: "",
+      },
+      {
+        idx: 2,
         first_name: "Qingmei",
         second_name: "Tang",
         role: "Contributor",

@@ -101,11 +101,24 @@ export default {
         time: "2022-12-28",
         title: "v0.9.3 Release!",
         content:
-          "We release the v0.9.3 version now! We release the v0.9.3 version now! In v0.9.3, we add a hypergraph dataset, fix some known bugs, and add some hypergraph operation.\
+          "We release the v0.9.3 version now! In v0.9.3, we add a hypergraph dataset, fix some known bugs, and add some hypergraph operation.\
           New datasets (DBLP-8k contributed by @mgao97);\
           Fix some known bugs (fix hypergraph D_v bugs ( h[v, e] -> w[e]*h[v, e] ), fix bug (ndcg and recall nan), etc.);\
           New features (vertex weights of hypergraph, etc.)",
         more: "https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.3",
+      },
+      {
+        idx: 6,
+        color: "purple",
+        icon: "mdi-star",
+        time: "2024-01-31",
+        title: "v0.9.4 Release!",
+        content:
+          "We release the v0.9.4 version now! In v0.9.4, we add 6 hypergraph datasets and fix some known bugs. \
+          New datasets (DBLP-4k, IMDB4k, Recipe100k, Recipe200k, Yelp3k, Tencent2k);\
+          Fix some known bugs (fix last layer bn bugs, fix device error of graph,di_graph,bi_graph,hypergraph laplacian computing, etc.);\
+          New features (add custom hypergraph generator, etc.)",
+        more: "https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.4",
       },
     ],
   }),
